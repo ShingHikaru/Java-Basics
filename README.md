@@ -1,8 +1,5 @@
 # Java-Basics
 
-## Test
-Test
-
 ## Github
 - Githubにプッシュするとき
 ```
