@@ -8,11 +8,11 @@ public class BankAccount {
     private String email;
     private String phoneNum;
 
-    public BankAccount() {
-        this("56789", 2.50, "Shing", "fiveh.5h@gmail.com",
-                "080-7730-9347");
-        System.out.println("Empty constructor called");
-    }
+//    public BankAccount() {
+//        this("56789", 2.50, "Shing", "fiveh.5h@gmail.com",
+//                "080-7730-9347");
+//        System.out.println("Empty constructor called");
+//    }
     public BankAccount(String accountNumber, double balance, String customerName, String email,
                        String phoneNum) {
         System.out.println("With parameters called");
@@ -24,12 +24,17 @@ public class BankAccount {
 
     }
 
-}
+    public BankAccount(String accountNumber, double balance, String customerName, String email,
+                       String phoneNum) {
+        this("99999", 100.05, customerName, email, phoneNum)
+        }
 
-    public String getAccountNumber() {
+
+
+        public String getAccountNumber() {
         return accountNumber;
     }
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
     public String getCustomerName() {
