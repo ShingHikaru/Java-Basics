@@ -7,6 +7,5 @@ public class Main {
         System.out.println(customer1.getName());
         VipCustomer customer2 = new VipCustomer();
         System.out.println(customer1.getCreditLimit());
-
     }
 }
