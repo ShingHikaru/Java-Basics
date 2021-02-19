@@ -20,7 +20,8 @@ public class Animals {
         System.out.println("Animals.eat() called");
     }
 
-    public void move() {
+    public void move(int speed) {
+        System.out.println("Animal.move() called.  Animal is moving at " + speed);
     }
 
 
