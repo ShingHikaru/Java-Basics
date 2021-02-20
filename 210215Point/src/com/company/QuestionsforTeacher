@@ -1,0 +1,1 @@
+Pointクラスの３５行目、public double distance()にfirstやsecondなどのpointNameが入力される時の書き方

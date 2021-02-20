@@ -28,16 +28,13 @@ public class Point {
         this.y = y;
     }
 
-    public double distance () {
-        return Math.sqrt((this.x) + (this.y));    //(0,0)地点との距離なので、Math.sqrt((x - 0) + (y - 0))
+    public double distance() {
+        return Math.sqrt(x*x + y*y)
     }
-    public double distance (int xA, int yA) {
-        return Math.sqrt((xA - x) * (xA - x) + (yA - y) * (yA - y));
-    }
-    public double distance (Point) {
-        return Math.sqrt()
 
+    public double distance(Point) {
 
     }
+
 
 }
