@@ -30,25 +30,27 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
         if ((age < 0) || (age > 100)) {
-            age = 0;
+            this.age = 0;
         }
+    }
     public boolean isTeen() {
-        if ((age > 12) && (age < 20)) {
+        if ((age >12) && (age <20)) {
             return true;
-        } else {
+        }else {
             return false;
         }
     }
-    public String getFullName () {
+    public String getFullName() {
+        System.out.println(getFirstName() + getLastName());
+
         if ((firstName.isEmpty()) && (lastName.isEmpty())) {
-            return "";
-        } else if (firstName.isEmpty()) {
-            return firstName;
-        } else if (lastName.isEmpty()) {
+            return " ";
+        }else if(firstName.isEmpty()){
             return lastName;
-        } else {
+        }else if(lastName.isEmpty()) {
+            return firstName;
+        }else{
             return firstName + " " + lastName;
-        }
         }
     }
 }

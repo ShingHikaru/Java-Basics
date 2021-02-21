@@ -11,7 +11,6 @@ public class Point {
         this.y = y;
     }
 
-
     public int getX() {
         return x;
     }
@@ -30,6 +29,10 @@ public class Point {
 
     public double distance() {
         return Math.sqrt(x*x + y*y)
+    }
+
+    public double distance(int x, int y) {
+        return Math.sqrt()
     }
 
     public double distance(Point) {

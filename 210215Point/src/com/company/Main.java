@@ -8,5 +8,6 @@ public class Main {
 
         System.out.println("distance(0,0)=" + first.distance());
         System.out.println("distance(Second)=" + first.distance(second));
+        System.out.println("distance(2,2) = " + first.distance(2,2));
     }
 }

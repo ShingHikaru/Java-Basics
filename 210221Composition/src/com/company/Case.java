@@ -5,12 +5,16 @@ public class Case {
     private String manufacture;
     private String powerSupply;
     private Dimensions dimensions;
+    private
 
     public Case(String model, String manufacture, String powerSupply, Dimensions dimensions) {
         this.model = model;
         this.manufacture = manufacture;
         this.powerSupply = powerSupply;
         this.dimensions = dimensions;
+    }
+    public void pressPowerButton() {
+        System.out.println("");
     }
 
     public String getModel() {

@@ -6,7 +6,8 @@ public class Main {
 	Person person = new Person();
 	person.setFirstName("");
 	person.setLastName("");
-	person.setAge(10);
+	person.setAge(-5);
+        System.out.println("age is " + person.getAge());
         System.out.println("Full name is" + person.getFullName());
         System.out.println("teen = " + person.isTeen());
     person.setFirstName("John");
