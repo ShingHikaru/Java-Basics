@@ -1,0 +1,37 @@
+package com.company;
+
+public class Motherboard {
+
+    private String model;
+    private String manufacture;
+    private int ramSlots;
+    private int cardSlots;
+    private String bios;
+
+    public void loadProgram(String programName) {
+        System.out.println("Program " + programName + "is loading.");
+    }
+
+
+
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getManufacture() {
+        return manufacture;
+    }
+
+    public int getRamSlots() {
+        return ramSlots;
+    }
+
+    public int getCardSlots() {
+        return cardSlots;
+    }
+
+    public String getBios() {
+        return bios;
+    }
+}
