@@ -2,12 +2,14 @@ package com.company;
 
 public class Calculator {
     public double floor;
-    public doubCarpet;
+    public double Carpet;
 
 
-
-    public double getTotalCost () {
-
+    public double getFloor() {
+        return floor;
     }
 
+    public double getCarpet() {
+        return Carpet;
+    }
 }
