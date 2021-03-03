@@ -1,18 +1,16 @@
 package com.company;
 
 public class Carpet {
-    private double cost;
+    private double theCost;
 
-
-
-    public Carpet(double cost) {
-        this.cost = cost;
-        if (this.cost < 0) {
-            this.cost = 0;
+    public Carpet(double theCost) {
+        this.theCost = theCost;
+        if (this.theCost < 0) {
+            theCost = 0;
         }
     }
-    public double getCost () {
-        return this.cost;
-    }
 
+    public double getTheCost() {
+        return theCost;
+    }
 }

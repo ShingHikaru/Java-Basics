@@ -9,8 +9,9 @@ public class Calculator {
         this.floor = floor;
         this.carpet = carpet;
     }
+
     public double getTotalCost() {
 
-        return floor.getArea() * Carpet.getCost(); //1 area = 8$
+        return floor.getArea() * Carpet.getTheCost(); //1 area = 8$
     }
 }
