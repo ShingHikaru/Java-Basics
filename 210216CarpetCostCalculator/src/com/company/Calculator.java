@@ -1,8 +1,8 @@
 package com.company;
 
 public class Calculator {
-    public Floor floor;
-    public Carpet carpet;
+    private Floor floor;
+    private Carpet carpet;
 
 
     public Calculator(Floor floor, Carpet carpet) {
@@ -12,6 +12,6 @@ public class Calculator {
 
     public double getTotalCost() {
 
-        return floor.getArea() * Carpet.getTheCost(); //1 area = 8$
+        return floor.getArea() * carpet.getCost(); //1 area = 8$
     }
 }
