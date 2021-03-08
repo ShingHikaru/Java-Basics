@@ -60,6 +60,11 @@ class Forgettable extends Movie {
 public class Main {
 
     public static void main(String[] args) {
-
     }
+    public static Movie randomMovie() {
+        int randomNumber = (int) (Math.random() * 5) + 1;
+
+        }
+    }
+
 }
