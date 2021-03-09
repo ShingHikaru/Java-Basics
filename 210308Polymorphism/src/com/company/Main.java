@@ -10,6 +10,10 @@ class Movie {
     public String plot() {
         return "No plot here.";
     }
+
+    public String getName() {
+        return name;
+    }
 }
 
 class Jaws extends Movie {
@@ -27,7 +31,7 @@ class IndependenceDay extends Movie {
     }
     @Override
     public String plot() {
-        return "Alien attempt to take over planet earth."
+        return "Alien attempt to take over planet earth.";
     }
 }
 
@@ -42,7 +46,7 @@ class MazeRunner extends Movie {
 }
 
 class StarWars extends Movie{
-    public StarWars(String name) {
+    public StarWars() {
         super("Star Wars");
     }
 
@@ -60,11 +64,28 @@ class Forgettable extends Movie {
 public class Main {
 
     public static void main(String[] args) {
+        for(int i=1; i<11; i++) {
+            Movie movie = randomMovie();
+            System.out.println("Movie #" + i + ":" + movie.getName() + "\n" +
+                                "Plot : " + movie.plot());
+        }
     }
     public static Movie randomMovie() {
         int randomNumber = (int) (Math.random() * 5) + 1;
-
+        System.out.println("Random number generator was " + randomNumber);
+        switch (randomNumber) {
+            case 1:
+                return new Jaws();
+            case 2:
+                return new IndependenceDay();
+            case 3:
+                return new MazeRunner();
+            case 4:
+                return new StarWars();
+            case 5:
+                return new Forgettable();
         }
+        return null;
     }
 
 }
