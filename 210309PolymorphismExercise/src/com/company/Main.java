@@ -102,7 +102,8 @@ public class Main {
         System.out.println(car.startEngine());
         System.out.println(car.brake());
         System.out.println(car.accelerate());
-        Mitsubishi mitsubishi = new Mitsubishi(6,)
+        Mitsubishi mitsubishi = new Mitsubishi(6, "kar");
+        System.out.println(mitsubishi.accelerate());
     }
 
 
