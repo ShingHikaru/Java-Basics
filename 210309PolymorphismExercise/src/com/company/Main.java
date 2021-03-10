@@ -102,8 +102,16 @@ public class Main {
         System.out.println(car.startEngine());
         System.out.println(car.brake());
         System.out.println(car.accelerate());
-        Mitsubishi mitsubishi = new Mitsubishi(6, "kar");
+        Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+        System.out.println(mitsubishi.startEngine());
         System.out.println(mitsubishi.accelerate());
+        System.out.println(mitsubishi.brake());
+
+        Ford ford = new Ford(6, "Ford Falcon");
+        System.out.println(ford.startEngine());
+        System.out.println(ford.accelerate());
+        System.out.println(ford.brake());
+
     }
 
 
