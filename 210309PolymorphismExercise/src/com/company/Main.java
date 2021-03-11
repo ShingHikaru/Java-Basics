@@ -44,12 +44,12 @@ class Mitsubishi extends Car {
 
     @Override
     public String accelerate() {
-        return "Mitshbishi -> accelerate()";
+        return "Mitsubishi -> accelerate()";
     }
 
     @Override
     public String brake() {
-        return "Mitshbishi -> brake()";
+        return "Mitsubishi -> brake()";
     }
 }
 
