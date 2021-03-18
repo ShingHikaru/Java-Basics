@@ -11,5 +11,7 @@ public class Animal {
 
     public void setSize(String size) {
         this.size = size;
+
+        
     }
 }
