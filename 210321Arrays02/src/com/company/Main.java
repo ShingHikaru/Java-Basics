@@ -14,7 +14,7 @@ public class Main {
         int[] array = new int[capacity];    //int[] arrayにいくつの数字を格納できるのか
         System.out.println("Enter " + capacity + " integer values:\r");
         for (int i= 0; i< array.length; i++) {  //int[] arrayの長さの分だけ
-            array[i] = scanner.nextInt();   //入力されたi
+            array[i] = scanner.nextInt();   //入力されたiの「数」（数値ではない）の
         }
         return array;
     }
@@ -30,5 +30,14 @@ public class Main {
         for(int i=0; i<array.length; i++) {
             sortedArray[i] = array[i];  //
         }
+        boolean flag = true;
+        int temp;   //入力された数値の一時格納場所
+        while(flag) {
+            flag = false;
+            for(int i=0; i<sortedArray.length-1; i++) {
+                if()
+            }
+        }
+
     }
 }
