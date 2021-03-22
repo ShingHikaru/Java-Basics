@@ -35,7 +35,9 @@ public class Main {
         while(flag) {
             flag = false;
             for(int i=0; i<sortedArray.length-1; i++) {
-                if()
+                if(
+                        
+                )
             }
         }
 
