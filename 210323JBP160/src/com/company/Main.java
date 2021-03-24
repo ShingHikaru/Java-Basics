@@ -13,6 +13,8 @@ public class Main {
         }
         System.out.println("\n");
 
+        
+
         int[] moneyList = {121902, 8302, 55100};
         for (int i = 0; i < moneyList.length; i++) {
             System.out.print(moneyList[i]);
