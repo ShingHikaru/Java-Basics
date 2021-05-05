@@ -13,15 +13,21 @@ public class Main {
     public static int[] getIntegers(int capacity) {
         int[] array = new int[capcity];
         System.out.println("Enter" + capacity + "integer values:\r");
-        for(int i=0; i<array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
-
-
-
-
-
-            
         }
+        return array;
+    }
+
+    public static void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("Element " + i + "contents" + array[1]);
+        }
+    }
+
+    public static int[] sortIntegers(int[] array) {
+        int[] sortedArray = new int[array.length];
+        int[] sortedArray = int[] array;
     }
 
 }
