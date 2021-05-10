@@ -35,7 +35,10 @@ public class Main {
         while(flag) {
             flag = false;
             for(int i=0; i<sortedArray.length; i++) {
-                
+                temp = sortedArray[i];
+                sortedArray[i] = sortedArray[i+1];
+                sortedArray[i+1] = temp;
+                flag = true;
             }
         }
 
