@@ -14,5 +14,24 @@ public class Main {
     public static int[] getIntegers(int capacity) {
         int[] array = new int[capacity];
         System.out.println("Enter" + capacity + " Integer value:\r");
+        for (int i=0; i<array.length; i++) {
+            array[i] = scanner.nextInt();
+        }
+        return array;
+    }
+
+    public static void printArray(int[] array) {
+        for (int i=0; i< array.length; i++) {
+            System.out.println("Element " + i + " contents " + array[i]);
+        }
+    }
+
+    public static int[] sortIntegers(int[] array) {
+        int[] sortedArray = new int[array.length];
+        for (int i=0; i<array.length; i++) {
+            sortedArray[i] =array[i];
+        }
+        boolean flag = true;
+        int temp; 
     }
 }
