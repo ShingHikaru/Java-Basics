@@ -11,4 +11,4 @@ git push -u origin main
 
 - Githubにプッシュしたくないフィルダーは、該当のファイル/フォルダーを
   `.gitignore`に記載する。
-  
+  # MyDiaryApp
